@@ -1,0 +1,13 @@
+<form [formGroup]="formChat" (submit)="sendMessage()">
+    <div class="form-group">
+        <label> Usuario</label>
+        <input type="text" class="form-control" formControlName="nameUser" />
+    </div>
+    <div class="form-group">
+        <label> Mensaje</label>
+        <input type="text" class="form-control" formControlName="message"/>
+    </div>
+    <div class="form-group">
+        <button class="btn btn-success">Enviar</button>
+    </div>
+</form>

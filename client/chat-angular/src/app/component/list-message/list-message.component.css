@@ -1,0 +1,12 @@
+.caja_mensaje{
+    background-color: #ffe6cb;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.caja_mensaje{
+    /* display: inline-block; */
+    padding: 20px;
+    border-radius: 6px;
+    min-width: 100px;
+
+}
